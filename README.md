@@ -1,3 +1,6 @@
+# Why forked
+The source is marked as archived, so I decided to fork it.
+
 # Sitemap-php
 
 Fast and lightweight class for generating Google sitemap XML files and index of sitemap files. Written on PHP and uses XMLWriter extension (wrapper for libxml xmlWriter API) for creating XML files. XMLWriter extension is enabled by default in PHP 5 >= 5.1.2. If you having more than 50000 url, it splits items to seperated files. _(In benchmarks, 1.000.000 url was generating in 8 seconds)_
@@ -143,7 +146,7 @@ You need to submit sitemap-index.xml to Google Sitemaps.
 
 ### Maintainers
 
-This package is maintained by [Evert Pot](https://github.com/evert), [David Oti](http://github.com/davmixcool), [Osman Ungur](https://github.com/o), [Mike Lay](https://github.com/mkly), [Userlond](https://github.com/userlond), [Philipp Scheit](https://github.com/pscheit), and you!
+This package is maintained by [Andrey Batalov](https://github.com/andreybatalof), [Evert Pot](https://github.com/evert), [David Oti](http://github.com/davmixcool), [Osman Ungur](https://github.com/o), [Mike Lay](https://github.com/mkly), [Userlond](https://github.com/userlond), [Philipp Scheit](https://github.com/pscheit), and you!
 
 ### License
 

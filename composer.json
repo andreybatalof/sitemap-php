@@ -1,9 +1,9 @@
 {
-    "name": "evert/sitemap-php",
+    "name": "andreybatalof/sitemap-php",
     "type": "library",
-    "description": "Lightweight library for generating Google sitemap XML files",
+    "description": "Fork of evert/sitemap-php. Lightweight library for generating Google sitemap XML files",
     "keywords": ["Sitemap"],
-    "homepage": "https://github.com/evert/sitemap-php/",
+    "homepage": "https://github.com/andreybatalof/sitemap-php/",
     "license": "MIT",
     "authors": [
         {
@@ -13,10 +13,16 @@
         {
             "name": "Evert Pot",
             "email": "evert@rooftopsolutions.nl"
+        },
+        {
+            "name": "Andrey Batalov",
+            "email": "andreybatalof@mail.ru"
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "ext-xmlwriter": "*",
+        "ext-ctype": "*"
     },
     "autoload": {
         "psr-0": { "SitemapPHP": "src/" }
