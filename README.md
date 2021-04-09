@@ -27,7 +27,7 @@ This is a slightly modified version of the original. The Sitemap class is now ad
 Run the following command to include this package via Composer
 
 ```shell
-composer require evert/sitemap-php
+composer require andreybatalof/sitemap-php
 ```
 
 **Include**
